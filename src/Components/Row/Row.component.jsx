@@ -57,7 +57,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
           />
         ))}
       </div>
-      console.log(trailerUrl);
       {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />}
     </div>
   );
